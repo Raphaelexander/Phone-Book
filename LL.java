@@ -15,7 +15,7 @@ class LL{
         
         }
     }
-    
+
     // Method to insert a new node
     public static LL insert(LL list, String data) {
         // Create a new node with the given data
@@ -116,7 +116,7 @@ class LL{
 
         //Iterate over all list data
         while(currentNode != null) {
-            System.out.print(currentNode.data + " ");
+            System.out.print(currentNode.data);
 
             //switch to the next node
             currentNode = currentNode.next;

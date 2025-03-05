@@ -14,7 +14,8 @@ class StartPhoneBook {
         for (int i = 0; i < entries; i++) {
             
             System.out.println("Person " + (i + 1)  + " First Name:");
-            pb.setFName(input.nextLine());
+            pb.setFName(input.next());
+            input.nextLine();
             System.out.println("Person " + (i + 1) + " Last Name:");
             pb.setLName(input.nextLine());
             System.out.println("Person " + (i + 1) + " Address:");
@@ -31,7 +32,7 @@ class StartPhoneBook {
         list.printList(list);    
         delete();
     }
-    
+
     public void delete(){
         System.out.println("Which entry would you like to delete?");
         int key = input.nextInt() - 1;

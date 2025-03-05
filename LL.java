@@ -63,12 +63,7 @@ class LL{
             // Return the updated List
             return list;
         }
-
-        //
-        // CASE 2:
-        // If the index is greater than 0 but less than the
-        // size of LinkedList
-        //
+       
         // The counter
         int counter = 0;
 
@@ -95,12 +90,9 @@ class LL{
         }
 
         // If the position element was found, it should be
-        // at currNode Therefore the currNode shall not be
+        // at currentNode Therefore the currNode shall not be
         // null
-        //
-        // CASE 3: The index is greater than the size of the
-        // LinkedList
-        //
+        
         // In this case, the currNode should be null
         if (currentNode == null) {
             // Display the message

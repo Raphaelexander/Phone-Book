@@ -1,1 +1,1 @@
-# Phone-Book
+This is a program that takes user input to fill a phonebook and creates the data as a linked list. It then prints the information. This program then asks if the user wants to delete a row based on its location. This program was made with a linked list from scratch, and does not include any APIs, other than the scanner class. For this project I worked with Rafael and Kennedi.
